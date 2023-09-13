@@ -1,0 +1,38 @@
+.main-map-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.map-container {
+    border: 2px solid #ada2a2;
+}
+
+.rightBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.Buttons {
+    color: #fff;
+    background-color: #0077db;
+    margin-right: 8px;
+    padding-inline: 15px;
+    padding-block: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+    border: 1px solid #0077db;
+    border-radius: 3.5px;
+    cursor: pointer;
+    transition: all ease-in-out 0.35s;
+}
+
+.Buttons:hover {
+    background-color: #0564b1;
+}
